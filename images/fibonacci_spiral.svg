@@ -1,0 +1,46 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style>
+            .spiral-text { font-family: Arial, sans-serif; font-size: 12px; fill: #333; }
+            .title { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #333; }
+        </style>
+    </defs>
+    
+    <!-- Title -->
+    <text x="200" y="20" class="title" text-anchor="middle">Fibonacci Spiral</text>
+    
+    <!-- Background -->
+    <rect width="400" height="400" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1"/>
+    
+    <!-- Fibonacci rectangles and spiral -->
+    <rect x="200" y="200" width="21.0" height="21.0" fill="#FF6B6B" stroke="#333" stroke-width="1" opacity="0.7"/>
+    <text x="210.5" y="210.5" class="spiral-text" text-anchor="middle" dy="0.35em">1</text>
+    
+    <rect x="179.0" y="200" width="21.0" height="21.0" fill="#4ECDC4" stroke="#333" stroke-width="1" opacity="0.7"/>
+    <path d="M 179.0 221.0 A 21.0 21.0 0 0 1 200.0 221.0" fill="none" stroke="#333" stroke-width="2"/>
+    <text x="189.5" y="210.5" class="spiral-text" text-anchor="middle" dy="0.35em">1</text>
+    
+    <rect x="179.0" y="179.0" width="42.0" height="42.0" fill="#45B7D1" stroke="#333" stroke-width="1" opacity="0.7"/>
+    <path d="M 200.0 179.0 A 42.0 42.0 0 0 1 200.0 221.0" fill="none" stroke="#333" stroke-width="2"/>
+    <text x="200.0" y="200.0" class="spiral-text" text-anchor="middle" dy="0.35em">2</text>
+    
+    <rect x="116.0" y="179.0" width="63.0" height="63.0" fill="#96CEB4" stroke="#333" stroke-width="1" opacity="0.7"/>
+    <path d="M 116.0 200.0 A 63.0 63.0 0 0 1 179.0 200.0" fill="none" stroke="#333" stroke-width="2"/>
+    <text x="147.5" y="210.5" class="spiral-text" text-anchor="middle" dy="0.35em">3</text>
+    
+    <rect x="116.0" y="74.0" width="105.0" height="105.0" fill="#FFEAA7" stroke="#333" stroke-width="1" opacity="0.7"/>
+    <path d="M 179.0 74.0 A 105.0 105.0 0 0 1 179.0 179.0" fill="none" stroke="#333" stroke-width="2"/>
+    <text x="168.5" y="126.5" class="spiral-text" text-anchor="middle" dy="0.35em">5</text>
+    
+    <rect x="-52.0" y="74.0" width="168.0" height="168.0" fill="#DDA0DD" stroke="#333" stroke-width="1" opacity="0.7"/>
+    <path d="M -52.0 179.0 A 168.0 168.0 0 0 1 116.0 179.0" fill="none" stroke="#333" stroke-width="2"/>
+    <text x="32.0" y="158.0" class="spiral-text" text-anchor="middle" dy="0.35em">8</text>
+    
+    <rect x="-52.0" y="-169.0" width="273.0" height="273.0" fill="#98D8C8" stroke="#333" stroke-width="1" opacity="0.7"/>
+    <path d="M 116.0 -169.0 A 273.0 273.0 0 0 1 116.0 104.0" fill="none" stroke="#333" stroke-width="2"/>
+    <text x="84.5" y="-32.5" class="spiral-text" text-anchor="middle" dy="0.35em">13</text>
+    
+    <rect x="-325.0" y="-169.0" width="441.0" height="441.0" fill="#FFB6C1" stroke="#333" stroke-width="1" opacity="0.7"/>
+    <path d="M -325.0 104.0 A 441.0 441.0 0 0 1 116.0 104.0" fill="none" stroke="#333" stroke-width="2"/>
+    <text x="-104.5" y="51.5" class="spiral-text" text-anchor="middle" dy="0.35em">21</text>
+</svg>
